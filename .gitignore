@@ -1,0 +1,5 @@
+*_embed*
+.fuse*
+*.min.js
+bower_components
+node_modules
