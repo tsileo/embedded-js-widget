@@ -1,22 +1,21 @@
 <!DOCTYPE HTML>
-
 <html>
-
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 	<title>Embedded widget test</title>
-	<style type="text/css">
-	h2 {
-		color:blue;
-	}
-	</style>
 </head>
-
 <body>
 <h1>Embedded widget test</h1>
-<h2>Ok</h2>
 <div id="myWidget"></div>
+<script>
+(function (window, document) {
+  var loader = function () {
+    var script = document.createElement("script"), tag = document.getElementsByTagName("script")[0];
+    script.src = "./../embed.min.js";
+    tag.parentNode.insertBefore(script, tag);
+  };
+  window.addEventListener ? window.addEventListener("load", loader, false) : window.attachEvent("onload", loader);
+})(window, document);
+</script>
 </body>
-<script src="embed.min.js"></script>
-
 </html>
