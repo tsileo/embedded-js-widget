@@ -18,18 +18,18 @@ define(['jquery', 'Ractive', 'rv!templates/template', 'text!css/my-widget_embed.
           ts: 'never',
         }
       });
-      _ractive = this.ractive;
       this.ractive.on({
         mwClick: function(ev) {
           ev.original.preventDefault()
-          _ractive.set('cnt', _ractive.get('cnt') + 1);
+          this.set('cnt', this.get('cnt') + 1);
+          var that = this;
           $.ajax({
             url: "http://date.jsontest.com/",
             dataType: "jsonp"
           }).then(function(resp) {
-            _ractive.set("ts", resp.time);
+            that.set("ts", resp.time);
           }, function(resp) {
-            _ractive.set("ts", "Something bad happened");
+            that.set("ts", "Something bad happened");
           });
         }
       });

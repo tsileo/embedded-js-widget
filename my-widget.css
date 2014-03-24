@@ -1,0 +1,30 @@
+BTCplex is an open source Bitcoin block chain browser written in '''[http://golang.org/ Go]''' ([https://github.com/tsileo/btcplex source code available on GitHub]).
+
+== Blockchain Explorer ==
+
+=== Web Interface ===
+
+'''[https://btcplex.com BTCplex]''' allows you to search and navigate the [[Block_chain|blockchain]].
+
+* Browse [[Blocks|blocks]] and [[Transactions|transactions]].
+* Check [[Address|addresses]] balance history.
+* Search for blocks, transactions, and addresses.
+
+=== API ===
+
+'''[https://btcplex.com BTCplex]''' provides a full-featured JSON API to access data pragmatically.
+
+* A [http://docs.btcplex.com/api_rest/ REST API] for acessing blocks, transactions and addresses balance.
+* A [BlockExplorer.com|BlockExplorer.com] compatible [http://docs.btcplex.com/api_query/ plain text query API].
+* Few [http://docs.btcplex.com/api_sse/ server-sent events endpoints] to monitor addresses, unconfirmed transactions, and new blocks.
+
+==External Links==
+
+* [https://btcplex.com BTCplex]
+* [http://docs.btcplex.com BTCplex documentation]
+* [https://github.com/tsileo/btcplex GitHub repository]
+
+[[Category:Services]]
+[[Category:Block chain browsers]]
+[[Category:Frontends]]
+[[Category:Bitcoin]]
