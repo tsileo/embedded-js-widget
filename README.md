@@ -1,5 +1,7 @@
 # Embedded JS widget
 
+Building an embedded widget using [RequireJS](http://requirejs.org) and [Ractive.js](http://ractivejs.org).
+
 ## Building the widget
 
 Assuming RequireJS and bower are already installed:
