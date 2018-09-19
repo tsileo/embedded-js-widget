@@ -1,6 +1,6 @@
 # Embedded JS widget
 
-Building an embedded widget using [RequireJS](http://requirejs.org) and [Ractive.js](http://ractivejs.org).
+Building an embedded widget using [RequireJS](http://requirejs.org) and [Ractive.js](http://ractive.js.org).
 
 ## Building the widget
 
